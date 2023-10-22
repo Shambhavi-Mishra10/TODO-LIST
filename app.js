@@ -1,14 +1,14 @@
+//Select DOM
+const todoInput = document.querySelector(".Todo_Inputs");
+const todoButton = document.querySelector(".Todo_Buttons");
+const todoList = document.querySelector(".Todo_List");
+const filterOption = document.querySelector(".Todo_Filter");
+
 //Event Listeners
 document.addEventListener("DOMContentLoaded", getTodos);
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteTodo);
 filterOption.addEventListener("click", filterTodo);
-
-//Select DOM
-const todoInput = document.querySelector(".Todo_Inputs");
-const filterOption = document.querySelector(".Todo_Filter");
-const todoList = document.querySelector(".Todo_List");
-const todoButton = document.querySelector(".Todo_Buttons");
 
 //Functions
 
